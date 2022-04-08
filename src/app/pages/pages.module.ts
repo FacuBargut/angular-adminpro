@@ -14,6 +14,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { PagesComponent } from './pages.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ComponentsModule } from '../components/components.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { ComponentsModule } from '../components/components.module';
     NopagefoundComponent,
     ProgressComponent,
     PagesComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     CommonModule,
@@ -38,7 +40,8 @@ import { ComponentsModule } from '../components/components.module';
     Grafica1Component,
     NopagefoundComponent,
     ProgressComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }
